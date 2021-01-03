@@ -133,66 +133,59 @@
 							<section id="two">
 								<div class="container">
 									<h3>Skills</h3>
-									<ul class="feature-icons">
+									<ul id="two-start" class="feature-icons">
 										<li class="icon solid">
-											<div class="chart chart1" data-percent="55">
-												<span id="two-start" class="title">Java</span>
-												<span class="percent">60%</span>
+											<div class="chart chart1" data-percent="50">
+												<span class="title">Java</span>
+												<span class="percent">50%</span>
 											</div>
 										</li>
 										<li class="icon solid">
-											<div class="chart chart1" data-percent="50">
+											<div class="chart chart2" data-percent="40">
 												<span class="title">Oracle</span>
 												<span class="percent">40%</span>
 											</div>
 										</li>
 										<li class="icon solid">
-											<div  class="chart chart1" data-percent="55">
+											<div  class="chart chart3" data-percent="40">
 												<span class="title">JavaScript</span>
-												<span class="percent">55%</span>
+												<span class="percent">40%</span>
 											</div>
 										</li>
                                         <li class="icon solid">
-											<div class="chart chart1" data-percent="55">
+											<div class="chart chart4" data-percent="40">
 												<span class="title">Jquery</span>
-												<span class="percent">60%</span>
+												<span class="percent">40%</span>
 											</div>
 										</li>
 										<li class="icon solid">
-											<div class="chart chart1" data-percent="55">
+											<div class="chart chart5" data-percent="35">
 												<span class="title">Git</span>
-												<span class="percent">45%</span>
+												<span class="percent">35%</span>
 											</div>
 										</li>
 										<li class="icon solid">
-											<div class="chart chart1" data-percent="55">
+											<div class="chart chart6" data-percent="50">
 												<span class="title">HTML5</span>
-												<span class="percent">60%</span>
-											</div>
-										</li>
-										<li class="icon solid">
-											<div class="chart chart1" data-percent="55">
-												<span class="title">CSS3</span>
 												<span class="percent">50%</span>
 											</div>
 										</li>
 										<li class="icon solid">
-											<div class="chart chart1" data-percent="55">
+											<div class="chart chart7" data-percent="45">
+												<span class="title">CSS3</span>
+												<span class="percent">45%</span>
+											</div>
+										</li>
+										<li class="icon solid">
+											<div class="chart chart8" data-percent="45">
 												<span class="title">Spring</span>
-												<span class="percent">60%</span>
+												<span class="percent">45%</span>
 											</div>
 										</li>
 									</ul>
 								</div>
 							</section>
 							<script>
-								// $(function() {
-                                //     chart('.chart1');
-                                //     chart('.chart2');
-                                //     chart('.chart3');
-                                //     chart('.chart4');
-								// });
-								
 								var isVisible = false;
 
 								$(window).on('scroll',function() {
@@ -201,6 +194,10 @@
 										chart('.chart2');
 										chart('.chart3');
 										chart('.chart4');
+										chart('.chart5');
+										chart('.chart6');
+										chart('.chart7');
+										chart('.chart8');
 										isVisible=true;
 									}
 								});
@@ -243,14 +240,14 @@
 											<a href="https://github.com/ui0426/Orkney" class="image"><img src="images/orkney.PNG" alt="" /></a>
 											<div class="inner">
 												<h4>가구 쇼핑몰</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<p>주문조회(취소, 교환, 반품신청), 리뷰(게시판 기능), 주문관리자 구현</p>
 											</div>
 										</article>
 										<article>
 											<a href="https://github.com/yoonnable/SemiProject" class="image"><img src="images/DDC.PNG" alt="" /></a>
 											<div class="inner">
 												<h4>밀키트 쇼핑몰</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<p>결제, 주문조회, 메인화면 구현</p>
 											</div>
 										</article>
 									</div>
@@ -262,8 +259,9 @@
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>tel. +82 10 7509 5507<br>
-										email. yoonnable@gmail.com</p>
-									
+										email. yoonnable@gmail.com<br>
+										git. <a href="https://github.com/yoonnable">https://github.com/yoonnable</a>
+									</p>	
 								</div>
 							</section>
 					</div>
@@ -271,9 +269,9 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
-							<ul class="copyright">
+							<!-- <ul class="copyright">
 								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
                     
