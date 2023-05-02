@@ -139,7 +139,49 @@
 							<section id="two">
 								<div class="container">
 									<h3>Skills</h3>
-									<ul id="two-start" class="feature-icons">
+									<div id="skills">
+										<div class="skill">
+											<img src="./images/skill/java.png"/>
+											<p class="title">Java</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/skill_spring.png"/>
+											<p class="title">Spring</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/mysql.png"/>
+											<p class="title">MySQL</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/oracle.png"/>
+											<p class="title">Oracle DB</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/git.png"/>
+											<p class="title">Git</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/skill_svn.png"/>
+											<p class="title">SVN</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/js.png"/>
+											<p class="title">JavaScript</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/skill_jquery.png"/>
+											<p class="title">JQuery</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/skill_vuejs.png"/>
+											<p class="title">Vue.js</p>
+										</div>
+										<div class="skill">
+											<img src="./images/skill/linux.png"/>
+											<p class="title">Linux</p>
+										</div>
+									</div>
+									<!-- <ul id="two-start" class="feature-icons">
 										<li class="icon solid">
 											<div class="chart chart1" data-percent="50">
 												<span class="title">Java</span>
@@ -188,7 +230,8 @@
 												<span class="percent">45%</span>
 											</div>
 										</li>
-									</ul>
+									</ul> -->
+
 								</div>
 							</section>
 							<script>
@@ -208,16 +251,16 @@
 									}
 								});
 
-								function checkVisible( elm, eval ) {
-									eval = eval || "object visible";
-									var viewportHeight = $(window).height(), // Viewport Height
-									scrolltop = $(window).scrollTop(), // Scroll Top
-									y = $(elm).offset().top,
-									elementHeight = $(elm).height();   
+								// function checkVisible( elm, eval ) {
+								// 	eval = eval || "object visible";
+								// 	var viewportHeight = $(window).height(), // Viewport Height
+								// 	scrolltop = $(window).scrollTop(), // Scroll Top
+								// 	y = $(elm).offset().top,
+								// 	elementHeight = $(elm).height();   
 
-									if (eval == "object visible") return ((y < (viewportHeight + scrolltop)) && (y > (scrolltop - elementHeight)));
-									if (eval == "above") return ((y < (viewportHeight + scrolltop)));
-								}
+								// 	if (eval == "object visible") return ((y < (viewportHeight + scrolltop)) && (y > (scrolltop - elementHeight)));
+								// 	if (eval == "above") return ((y < (viewportHeight + scrolltop)));
+								// }
 
                                 function chart(classname){
                                     $(classname).easyPieChart({
@@ -240,10 +283,10 @@
 							<section id="three">
 								<div class="container">
 									<h3>Project</h3>
-									<p>
+									<!-- <p>
 										Team Project : 
 										<a href="pdf/LEEYOONNA_PORTFOLIO.pdf">Project Portfolio.pdf</a>
-									</p>
+									</p> -->
 									<div class="features">
 										<article>
 											<a href="https://github.com/ui0426/Orkney" class="image"><img src="images/orkney.PNG" alt="" /></a>

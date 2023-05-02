@@ -3313,3 +3313,19 @@ input, select, textarea {
 			}
 
 	}
+
+	#skills {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.skill {
+		text-align: center;
+		flex-basis: 20%;
+	}
+
+	.skill img {
+		width: 50px;
+		height: 50px;
+	}
